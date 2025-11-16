@@ -6,12 +6,6 @@
 #   ./pomo.sh                  # default: 50/10 × 4 cycles
 #   ./pomo.sh 25 5 6           # positional: work/break/cycles
 #   ./pomo.sh -w 30 -b 5 -c 3  # flags
-#
-# notes:
-#   • uses macos notifications (osascript) and system sounds (afplay).
-#   • prints a soft, rolling countdown in the terminal.
-#   • ctrl-c stops everything without drama.
-#
 
 # default timings
 WORK_MIN=50
